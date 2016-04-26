@@ -2,6 +2,8 @@ var keystone = require('keystone');
 
 keystone.init({
 
+	'admin path': 'admin',
+	
 	'name': 'Keystone Demo',
 	'brand': 'Demo',
 

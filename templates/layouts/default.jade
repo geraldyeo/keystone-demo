@@ -45,7 +45,7 @@ html
 										li(class=currentTheme === theme ? 'active' : '')
 											a(href='?theme=' + theme)= theme
 						if user
-							li: a(href='/admin) Admin UI
+							li: a(href='/admin') Admin UI
 							li: a(href='/admin/signout') Sign Out
 						else
 							li: a(href='/admin/signin') Sign In
